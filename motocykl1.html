@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wypożyczalnia samochodów</title>
+    
+    <link rel="stylesheet" href="./css/start.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>
+    <script src="./script.js"></script>
+
+    
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="./start.html">start</a></li>
+            <li><a href="./oferta.html">oferta</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="void"></div>
+
+        <section class="all">
+            <section class="big-box1">
+                <h1>Motocykl 1</h1>
+                <img class="zdj_g" src="./img/motocykl1.jpg" alt="Pojazd" />
+
+                <div class="galery">
+                    <h2 class="prev">&#60;</h2>
+                    <img src="./img/motocykl1.jpg"/>
+                    <img src="./img/motocykl11.png"/>
+                    <img src="./img/motocykl12.jpg"/>
+                    <img src="./img/motocykl13.jpg"/>
+                    <h2 class="next">&#62;</h2>
+                </div>
+
+                <div class="small-box">
+                    <div class="parametr">
+                        <p>Moc</p>
+                        <h2>Coś</h2>
+                        <p>Pojemność</p>
+                        <h2>Coś</h2>
+                    </div>
+
+                    <div class="parametr">
+                        <p>Rodzaj paliwa</p>
+                        <h2>Coś</h2>
+                        <p>Przebieg</p>
+                        <h2>Coś</h2>
+                    </div>
+
+                    <div class="parametr">
+                        <p>Ilość miejsc</p>
+                        <h2>Coś</h2>
+                        <p>Ilość drzwi</p>
+                        <h2>Coś</h2>
+                    </div>
+                </div>
+            </section>
+
+            <section class="big-box2">
+                <form>
+                    <h1>Wypożycz teraz!</h1>
+                    <h2>Imię</h2>
+                    <input type="text" class="first-name" name="firstname" size="30" required>
+                    <h2>Nazwisko</h2>
+                    <input type="text" class="last-name" name="lastname" size="30" required>
+                    <h2>E-mail</h2>
+                    <input type="email" class="email" name="email" size="30" required>
+
+                    <h2>Wybierz pojazd</h2>
+                    <select class="car-select" name="car-select" required>
+                        <option value="" disabled selected>Wybierz coś z tego</option>
+                        <option value="motocykl1" selected>motocykl1</option>
+                        <option value="motocykl2">motocykl2</option>
+                        <option value="autoosobowe1">Auto osobowe1</option>
+                        <option value="autoosobowe2">Auto osobowe2</option>
+                        <option value="autodostawcze1">Auto dostawcze1</option>
+                        <option value="autodostawcze2">Auto dostawcze2</option>
+                        <option value="autoelektryczne1">Auto elektryczne1</option>
+                        <option value="autoelektryczne2">Auto elektryczne2</option>
+                        <option value="taczka1">Taczka1</option>
+                        <option value="taczka2">Taczka2</option>
+                        <option value="wozek1">Wózek widłowy1</option>
+                        <option value="wozek2">Wózek widłowy2</option>
+                    </select>
+
+                    <h2>Cena (1 dzień): <span class="car-price">-</span></h2>
+
+                    <div class="data">
+                        <div class="dataodb">
+                            <h2>Data odbioru</h2>
+                            <input type="date" class="pickup-date" name="pickup-date" required>
+                        </div>
+                        <div class="datazwr">
+                            <h2>Data zwrotu</h2>
+                            <input type="date" class="return-date" name="return-date" required>
+                        </div>
+                    </div>
+
+                    <div class="btn">
+                        <input type="submit" class="submit" value="Wyślij">
+                        <input type="reset" value="Zresetuj">
+                    </div>
+                </form>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
