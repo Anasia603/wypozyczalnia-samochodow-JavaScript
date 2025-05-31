@@ -1,3 +1,2 @@
-"# wypozyczalnia-samochodow-JavaScript" 
-"# wypozyczalnia-samochodow-JavaScript" 
-"# wypozyczalnia-samochodow-JavaScript" 
+# Wypożyczalnia samochodów
+Jest to aplikacja internetowa wypożyczalni samochodów, wykonana za pomocą Java Script
